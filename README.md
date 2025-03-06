@@ -10,14 +10,12 @@
 5. [Setup & Configuration](#setup--configuration)
 6. [How It Works](#how-it-works)
 7. [Usage](#usage)
-8. [Troubleshooting](#troubleshooting)
-9. [License](#license)
-
 ---
 
 ## Introduction
 This project demonstrates how to use an **ESP32** board with the **Firebase Realtime Database** to control an LED based on a capacitive touch sensor. It also uses **NTP** to fetch the current time. The goal is to illustrate how to:
 
+- Connect two orbs that lights each other up even from afar
 - Connect to multiple Wi-Fi networks by cycling through a list of credentials.
 - Disable Bluetooth on the ESP32 to reduce power consumption.
 - Initialize and authenticate with Firebase (using the [Firebase ESP Client](https://github.com/mobizt/Firebase-ESP-Client)).
